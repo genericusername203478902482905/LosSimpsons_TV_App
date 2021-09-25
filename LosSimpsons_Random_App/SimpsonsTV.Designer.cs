@@ -37,6 +37,7 @@ namespace LosSimpsons_Random_App
             this.cafecito = new System.Windows.Forms.LinkLabel();
             this.sideshowBob = new System.Windows.Forms.PictureBox();
             this.banner = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.sideshowBob)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.banner)).BeginInit();
             this.SuspendLayout();
@@ -80,9 +81,9 @@ namespace LosSimpsons_Random_App
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label1.Location = new System.Drawing.Point(12, 117);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(290, 17);
+            this.label1.Size = new System.Drawing.Size(294, 17);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Seleccione las temporadas que desea incluir";
+            this.label1.Text = "Seleccione las temporadas que desea incluir.";
             // 
             // label2
             // 
@@ -126,11 +127,23 @@ namespace LosSimpsons_Random_App
             this.banner.TabIndex = 3;
             this.banner.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F);
+            this.label3.Location = new System.Drawing.Point(10, 411);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(269, 12);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Los Simpsons es propiedad de Disney y todos sus distribuidores.";
+            // 
             // SimpsonsTV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(558, 426);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.sideshowBob);
             this.Controls.Add(this.cafecito);
             this.Controls.Add(this.label2);
@@ -138,7 +151,9 @@ namespace LosSimpsons_Random_App
             this.Controls.Add(this.label1);
             this.Controls.Add(this.botonReproducir);
             this.Controls.Add(this.checkedListBoxTemporadas);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "SimpsonsTV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Simpsons TV (Classic)";
@@ -159,6 +174,7 @@ namespace LosSimpsons_Random_App
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel cafecito;
         private System.Windows.Forms.PictureBox sideshowBob;
+        private System.Windows.Forms.Label label3;
     }
 }
 

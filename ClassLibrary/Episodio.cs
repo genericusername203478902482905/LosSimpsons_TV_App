@@ -28,13 +28,6 @@ namespace ClassLibrary
         public int GetEpisodio { get => episodio;}
         public string GetEnlace { get => enlace;}
 
-        /*
-        private string crearEnlace()
-        {
-            return ($"https://simpsonitos.xyz/episodio/los-simpson-{this.temporada}x{this.episodio}/");
-        }
-        */
-
         public static List<Episodio> operator +(List<Episodio> listTemp, Episodio ep)
         {
             if (listTemp != ep)
@@ -60,7 +53,6 @@ namespace ClassLibrary
         {
             return !(listTemp == episodio);
         }
-
 
 
         }
