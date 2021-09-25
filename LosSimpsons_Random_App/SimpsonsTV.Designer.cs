@@ -133,9 +133,9 @@ namespace LosSimpsons_Random_App
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F);
             this.label3.Location = new System.Drawing.Point(10, 411);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(269, 12);
+            this.label3.Size = new System.Drawing.Size(193, 12);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Los Simpsons es propiedad de Disney y todos sus distribuidores.";
+            this.label3.Text = "The Simpsons™ & © 2021 20th Century Studios.";
             // 
             // SimpsonsTV
             // 
