@@ -13,19 +13,6 @@ namespace LosSimpsons_Random_App
 {
     public partial class SimpsonsTV : Form
     {
-        Temporada temp1 = new Temporada(1);
-        Temporada temp2 = new Temporada(2);
-        Temporada temp3 = new Temporada(3);
-        Temporada temp4 = new Temporada(4);
-        Temporada temp5 = new Temporada(5);
-        Temporada temp6 = new Temporada(6);
-        Temporada temp7 = new Temporada(7);
-        Temporada temp8 = new Temporada(8);
-        Temporada temp9 = new Temporada(9);
-        Temporada temp10 = new Temporada(10);
-        Temporada temp11 = new Temporada(11);
-        Temporada temp12 = new Temporada(12);
-
         public SimpsonsTV()
         {
             InitializeComponent();

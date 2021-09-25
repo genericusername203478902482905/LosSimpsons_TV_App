@@ -58,7 +58,6 @@ namespace ClassLibrary
                     this.cantEpisodios = 21;
                     break;
             }
-            //ho
             this.GenerarEpisodios();
         }
 
