@@ -34,7 +34,7 @@ namespace LosSimpsons_Random_App
         private void SimpsonsTV_Load(object sender, EventArgs e)
         {
             //play short simpsons riff midi when opened
-            //banner.ImageLocation = "./the-simpsons-banner-db96ea.png"; //path to image
+
             banner.SizeMode = PictureBoxSizeMode.Zoom;
             sideshowBob.SizeMode = PictureBoxSizeMode.Zoom;
         }
@@ -58,8 +58,6 @@ namespace LosSimpsons_Random_App
                 Temporada tempObj = new Temporada(tempSeleccionada);
                 epSeleccionado = tempObj.RetornarEpisodio();
 
-                //MessageBox.Show(($"S{epSeleccionado.GetTemporada}E{epSeleccionado.GetEpisodio}").ToString());
-                //MessageBox.Show(($"{epSeleccionado.GetEnlace}").ToString());
                 System.Diagnostics.Process.Start(epSeleccionado.GetEnlace);
             }
             else
