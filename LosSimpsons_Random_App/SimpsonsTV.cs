@@ -20,8 +20,6 @@ namespace LosSimpsons_Random_App
 
         private void SimpsonsTV_Load(object sender, EventArgs e)
         {
-            //play short simpsons riff midi when opened
-
             banner.SizeMode = PictureBoxSizeMode.Zoom;
             sideshowBob.SizeMode = PictureBoxSizeMode.Zoom;
         }
